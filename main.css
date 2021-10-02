@@ -1,0 +1,14 @@
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+header nav ul li{
+    text-decoration: none;
+}
+
+.street {
+    font-size: 2.3em;
+}
+
