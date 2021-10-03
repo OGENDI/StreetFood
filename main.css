@@ -1,14 +1,23 @@
 header nav ul{
     display: flex;
     justify-content: space-evenly;
-    text-decoration: none;
+    
+    
 }
 
 header nav ul li{
-    text-decoration: none;
+    
+    color: black;
 }
 
 .street {
     font-size: 2.3em;
 }
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
 
+.land_page{
+    background-color: #E5E5E5;
+}
