@@ -1,6 +1,7 @@
 header nav ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
     
     
 }
@@ -8,33 +9,76 @@ header nav ul{
 header nav ul li{
     
     color: black;
+    text-decoration: none;
+    padding: 55px;
 }
 .curve {
     position: absolute;
-    background: chartreuse;
+    background: #B8E79C;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    clip-path: circle(800px at 100px 0);
+    clip-path: circle(950px at 1700px -360px);
     z-index: -1;
     
 }
 
 .street {
     font-size: 2.3em;
+    position: relative;
+    top: 80px;
 }
 header nav ul li a{
     text-decoration: none;
     color: black;
+    
 }
 
 .land_page{
     background-color: #E5E5E5;
     position: relative;
-    height: 100vh;
+    height: 70vh;
     z-index: -1;
     
+}
+
+.intro {
+    padding: 75px;
+}
+
+.intro h2 {
+    font-size: 4.1rem;
+    color: #6CB840;
+    
+}
+.intro span {
+    color: #EAAB1B;
+    
+}
+
+.intro h3{
+    font-size: 3.7rem;
+    position: relative;
+    top: -35px;
+}
+.intro p{
+    position: relative;
+    font-size: 2.1rem;
+    top: -100px;
+}
+button {
+    background-color: #6CB840;
+    border: none;
+    color: white;
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    font-size: 1.9rem;
+    border-radius: 50px;
+    position: relative;
+    top: -100px;
 }
 .eat {
     display: flex;
