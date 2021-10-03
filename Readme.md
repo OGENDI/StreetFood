@@ -13,6 +13,7 @@
 ​
 ## Description
 <p>This is a Street Food website called DeFood. It contains the fast foods that can be easily orderd via major apps like Jumia, Uber, Glovo among many others.</p>
+
 ​
 ## Technology Used
 
@@ -25,7 +26,7 @@
 * Tutorialspoint
 * PluralSight
 ​
-[Go Back to the top](#DeFood)
+* [Go Back to the top](#DeFood)
 ​
 ## Licence
 ​
@@ -57,4 +58,4 @@ SOFTWARE.
 ​​
 Linkedin - [Derick Mokonge](www.linkedin.com/in/derick-ogendi)
 ​
-[Go Back to the top](#DeFood)
+* [Go Back to the top](#DeFood)
