@@ -82,21 +82,32 @@ button {
 }
 .eat {
     display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    font-family: 'Poppins';
+    
 }
 .eat img{
-    height: 500px;
+    height: 800px;
+    padding-left: 50px;
 
 }
 .eat_two {
-   align-items: center;
+   text-align: center;
    justify-content: center;
-
+   padding-top: 100px;
+   padding-right: 500px;
+   font-size: 2.7rem;
+}
+.eat h3{
+    color: #EAAB1B;
 }
 
 .explore{
     background: #EAF3E4;
     text-align: center;
     margin: 0px 20px 0px 20px;
+  
     
   
 }
