@@ -21,3 +21,67 @@ header nav ul li a{
 .land_page{
     background-color: #E5E5E5;
 }
+.eat {
+    display: flex;
+}
+.eat img{
+    height: 500px;
+
+}
+.eat_two {
+   align-items: center;
+   justify-content: center;
+
+}
+
+.explore{
+    background: #EAF3E4;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    
+  
+}
+.first_row {
+    display: flex;
+}
+.second_row {
+    display: flex;
+}
+.first_burger {
+    display: flex;
+  
+
+}
+
+.first_burger img{
+   height: 150px;
+   position: relative;
+   left: 20px;
+   z-index: -;
+
+   
+   
+   
+}
+.b1 { 
+    background: white;
+    padding: 5px;
+    width: 250px;
+    height: 150px;
+    border-bottom-right-radius: 56px;
+    margin: 25px;
+    position: relative;
+    left: -50px;
+    
+    
+}
+.b1 h2 {
+    position: relative;
+    left: -5px;
+
+    
+}
+.b1 p {
+    text-align: center;
+
+}
