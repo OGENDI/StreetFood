@@ -85,6 +85,20 @@ header nav ul li a{
     text-align: center;
 
 }
+
+.contactUs {
+    background: #FFF5DD ;
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+    
+}
+.contactUs h2{
+    text-align: center;
+}
+.contactUs p{
+    text-align: center;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
