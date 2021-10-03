@@ -37,7 +37,7 @@ header nav ul li a{
 .explore{
     background: #EAF3E4;
     text-align: center;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
     
   
 }
@@ -84,4 +84,15 @@ header nav ul li a{
 .b1 p {
     text-align: center;
 
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #F1FAEC;
+    margin: 0px 20px 0px 20px;
+}
+
+.days p{
+    position: relative;
+    top: -10px;
 }
