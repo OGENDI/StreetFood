@@ -107,9 +107,19 @@ button {
     background: #EAF3E4;
     text-align: center;
     margin: 0px 20px 0px 20px;
+    padding-top: 50px;
+    padding-bottom: 70px;
   
     
   
+}
+
+.head{
+    font-size: 3.0rem;
+}
+
+.head span{
+    color: #6CB840;
 }
 .first_row {
     display: flex;
@@ -126,10 +136,10 @@ button {
 }
 
 .first_burger img{
-   height: 150px;
+   height: 180px;
    position: relative;
-   left: 20px;
-   top: 60px;
+   left: 70px;
+   top: 90px;
    z-index: 2;
 
    
@@ -137,23 +147,25 @@ button {
 .b1 { 
     background: white;
     padding: 5px;
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     border-bottom-right-radius: 56px;
     margin: 25px;
     position: relative;
     left: -50px;
     
     
+    
 }
 .b1 h2 {
     position: relative;
-    left: -5px;
+    left: -70px;
 
     
 }
 .b1 p {
     text-align: center;
+    font-size: 1.3rem;
 
 }
 .hot {
