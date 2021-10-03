@@ -169,16 +169,35 @@ button {
 
 }
 .hot {
-    display: flex;
     background: #C9ECB5;
-    height: 700px;
+    height: 70vh;
     margin: 0px 20px 0px 20px;
     margin-bottom: 5px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.hot span{
+    color: #6CB840;
+}
+.hot1 {
+    display: flex;
+    justify-content: space-between;
 }
 .burg {
     position: relative;
-    top: -360px;
-    left: 30px;
+    left: -300px;
+    top: 70px;
+}
+
+.juice {
+    position: relative;
+    left: 70px;
+}
+
+.info {
+    position: relative;
+    right: 200px;
+    font-size: 1.4rem;
 }
 
 .contactUs {
@@ -206,3 +225,4 @@ footer{
     position: relative;
     top: -10px;
 }
+
