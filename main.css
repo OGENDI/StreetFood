@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     font-family: 'Poppins';
+    margin-inline: auto;
+    width: 100%;
+
 }
+
+@media(min-width: 40em) {
+
+}
+
 header nav ul{
     display: flex;
     justify-content: space-around;
@@ -192,7 +200,7 @@ button {
     height: 90vh;
     margin: 0px 20px 0px 20px;
     margin-bottom: 5px;
-   
+    padding-top: 20px;
     font-size: 4.5rem;
     
 }
@@ -337,4 +345,46 @@ footer{
     right: 250px;
     top: -30px;
     
+}
+.circular{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.fooditems{
+    width: 700px;
+    height: 700px;
+    border: 2px dashed #6CB840;
+    border-radius: 50%;
+    
+}
+
+#image1{
+    transform: translate(-45px , 200px);
+}
+#image2{
+    transform: translate(-65px, 20px);
+}
+#image3 {
+    transform: translate(60px , -90px);
+}
+#image4 {
+    transform: translate(-90px , 200px);
+}
+#image5 {
+    transform: translate(-10px , -60px);
+}
+#image6 {
+    transform: translate(30px , 70px);
+}
+.days{
+    width: 300px;
+}
+footer{
+    padding: 20px;
+}
+.send1{
+    width: 70px;
+    font-size: 14px;
+    font-weight: bold;
 }
