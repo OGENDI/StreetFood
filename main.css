@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     font-family: 'Poppins';
     margin-inline: auto;
@@ -387,4 +387,36 @@ footer{
     width: 70px;
     font-size: 14px;
     font-weight: bold;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.subMenu ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.subMenu ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+#streetFood {
+    font-size: 3.1rem;
+    text-align: center;
+}
+#streetFood img{
+    position:absolute;
+    transform: scale(1.5);
+}
+.subMenu ul li span{
+font-size: 3.5rem;
+font-weight: 900;
+position: relative;
+top:180px;
+left: -20px;
+
 }
