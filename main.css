@@ -391,6 +391,10 @@ footer{
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+#land0 {
+    background: #E5E5E5;
+    height: 100vh;
+    }
 .subMenu ul{
     display: flex;
     justify-content: space-between;
@@ -401,7 +405,7 @@ footer{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 #streetFood {
@@ -410,7 +414,7 @@ footer{
 }
 #streetFood img{
     position:absolute;
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 .subMenu ul li span{
 font-size: 3.5rem;
@@ -418,5 +422,47 @@ font-weight: 900;
 position: relative;
 top:180px;
 left: -20px;
-
 }
+
+.land {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction {
+    position: relative;
+    top: 150px;
+    padding: 30px;
+}
+.introduction h2{
+    font-size: 4.5rem;    
+    color: #6CB840;
+}
+
+.introduction h2 span {
+    color: #EAAB1B;
+}
+
+.introduction h3 {
+    font-size: 3.0rem;
+    position: relative;
+    bottom: 50px;
+}
+.introduction p{
+    font-size: 2.1rem;
+    position: relative;
+    bottom: 70px;
+}
+ .introduction button{
+    background-color: #6CB840;
+    border: none;
+    color: white;
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    font-size: 1.9rem;
+    border-radius: 50px;
+    position: relative;
+    bottom: 65px;
+ }
