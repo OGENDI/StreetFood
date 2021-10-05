@@ -466,3 +466,97 @@ left: -20px;
     position: relative;
     bottom: 65px;
  }
+
+
+ #image1{
+    transform: translate(-45px , 200px);
+}
+#image2{
+    transform: translate(-65px, 20px);
+}
+#image3 {
+    transform: translate(60px , -90px);
+}
+#image4 {
+    transform: translate(-90px , 200px);
+}
+#image5 {
+    transform: translate(-10px , -60px);
+}
+#image6 {
+    transform: translate(30px , 70px);
+}
+
+.eat {
+    display: flex;
+    height: 100vh;
+}
+
+.eat img {
+    height: 850px;
+}
+
+.eat3 {
+    position: relative;
+    top: 95px;
+    text-align: center;
+}
+
+.eat h2 {
+    font-size: 3.9rem;
+    color: #FFD77C;
+}
+
+.eat p {
+    font-size: 2.1rem;
+}
+
+.menuItems {
+    height: 80vh;
+    background: #EAF3E4;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menuItems img{
+    height: 190px;
+    position: relative;
+    left: -100px;
+    bottom: 130px;
+    
+}
+
+.head1 {
+    font-size: 3.1rem;
+    text-align: center;
+}
+
+.head1 span {
+    color: #6CB840;
+}
+
+.burger1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.burger2 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+    
+}
+
+.burgerList {
+    background: white;
+    height: 200px;
+    width: 350px;
+    position: relative;
+    border-bottom-right-radius: 40%;
+    
+}
+.menuItems p{
+    text-align: center;
+    font-size: 1.2rem;
+} 
